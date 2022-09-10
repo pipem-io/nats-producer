@@ -2,6 +2,3 @@ image: docker.pipem.io/nats-producer
 version: VERSION
 
 replicas: 1
-
-log:
-  level: "info"
