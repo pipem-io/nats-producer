@@ -1,11 +1,18 @@
-# Pipem.io - Nats producers
+# Pipem.io - Nats producer
+
+# Add Chart
+
+```bash
+helm repo add pipem https://charts.pipem.io
+helm repo update
+```
 
 # Install
 
+```bash
+helm upgrade nats-producer pipem/nats-producer --namespace pipem -i
 ```
-helm repo add pipem https://charts.pipem.io
-helm repo update
 
-helm install pipem/nats-producer --generate-name --namespace pipem
+# Configuration
 
-```
+Read more on [docs.pipem.io](https://docs.pipem.io).
